@@ -1,8 +1,8 @@
-static final string region(){
+static final String region(){
     return "us-east-1"
 }
 
-static final string nexusURL(){
+static final String nexusURL(){
     return "nexus.dawsmani.site:8081"
 }
 
