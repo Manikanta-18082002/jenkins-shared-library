@@ -8,7 +8,7 @@ def call(Map configMap){
         disableConcurrentBuilds() // No Multiple  Builds
         ansiColor('xterm')
     }
-nment{
+    environment{
         def appVersion = '' // variable declaration in GLOBAL LEVEL
         nexusUrl = pipelineGlobals.nexusURL()
         region = pipelineGlobals.region()
