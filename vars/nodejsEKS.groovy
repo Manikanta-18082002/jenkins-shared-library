@@ -32,6 +32,7 @@ def call(Map configMap){
             stage('Install Dependencies') {
                 steps {
                 sh """
+                    sudo yum install -y zip
                     npm install
                     ls -ltr
                     echo "application version: $appVersion"
